@@ -1,0 +1,582 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+}
+
+/*===header-style-area-start===*/
+
+header {
+    background-image: url(Img/apartment-apple-building-business-265125.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(112vh - 80px);
+}
+
+.navbar {
+    background: none;
+    height: 80px;
+    width: 100%;
+}
+
+.navbar .ul-navbar {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar .ul-navbar .li-navbar {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.navbar .ul-navbar .li-navbar .a-navbar {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.a-navbar.active, .a-navbar:hover {
+    background-color: #1b9bff;
+    transition: .5s;
+}
+
+label.logo {
+    color: white;
+    padding: 0px 100px;
+    line-height: 80px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.checkbtn {
+    color: whitesmoke;
+    float: right;
+    font-size: 20px;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.center-area {
+    text-transform: uppercase;
+    font-family: monospace;
+    position: absolute;
+    margin-left: 50%;
+    margin-right: 20%;
+    width: 150vh;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.center-area h1 {
+    padding-left: 50px;
+    font-size: 12vh;
+}
+
+.center-area h3 {
+    padding-left: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.center-area h4 {
+    padding-left: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.center-area h5 {
+    padding-left: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.center-area a {
+    color: white;
+    background-color: #41adff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.active1 {
+    position: relative;
+    top: 30px;
+    padding-left: 40%;
+}
+
+.active1 a:hover {
+    background-color: #0e5891;
+}
+
+/*===header-style-area-end===*/
+
+/*======
+  ======
+  ======
+  ======
+  ======
+*/
+
+/*====About-style-us-area-start==*/
+
+.text-area {
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    float: left;
+    text-align: center;
+    max-width: 500px;
+    height: calc(100vh - 80px);
+}
+
+.text-area p {
+    text-transform: uppercase;
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.text-area .active1 {
+    float: left;
+}
+
+.text-area .active1 a {
+    color: white;
+    background-color: #41adff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.text-area .active1 a:hover {
+    background-color: #0e5891;
+}
+
+.video-right h2 {
+    float: right;
+    margin-top: 25%;
+    margin-right: 20%;
+}
+
+/*====About-style-us-area-end=====*/
+
+/*======
+  ======
+  ======
+  ======
+  ======
+*/
+
+/*==this-style-he-clear-space-btween-the-section==*/
+
+.clera {
+    clear: both;
+}
+
+/*======
+  ======
+  ======
+  ======
+  ======
+*/
+
+/*===Features-area-style-start====*/
+
+.feat-main {
+    position: relative;
+    top: -150px;
+    margin-left: 170px;
+    margin-right: 170px;
+    height: 40vh;
+    width: 70%;
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+.faet-text {
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    top: -15%;
+    left: 2%;
+}
+
+.faet-text h1 {
+    font-size: 30px;
+}
+
+.fet-left {
+    width: 90px;
+    height: 90px;
+    text-align: justify;
+    text-align: center;
+    float: left;
+    margin-left: 5%;
+    border: 1px solid dodgerblue;
+    border-radius: 50%;
+}
+
+.center-img {
+    position: relative;
+    top: 25px;
+    padding-right: 1px;
+}
+
+.text-h1, .text-p {
+    position: relative;
+    top: 70%;
+}
+
+.fet-left:hover {
+    background-color: dodgerblue;
+}
+
+.fet-left1 {
+    width: 90px;
+    height: 90px;
+    text-align: justify;
+    text-align: center;
+    float: left;
+    margin-left: 15%;
+    border: 1px solid dodgerblue;
+    border-radius: 50%;
+}
+
+.fet-left1:hover {
+    background-color: dodgerblue;
+}
+
+.fet-right1 {
+    width: 90px;
+    height: 90px;
+    text-align: justify;
+    text-align: center;
+    float: right;
+    margin-left: 15%;
+    border: 1px solid dodgerblue;
+    border-radius: 50%;
+}
+
+.fet-right:hover {
+    background-color: dodgerblue;
+}
+
+.fet-right {
+    width: 90px;
+    height: 90px;
+    text-align: justify;
+    text-align: center;
+    float: right;
+    margin-left: 5%;
+    border: 1px solid dodgerblue;
+    border-radius: 50%;
+}
+
+.fet-right1:hover {
+    background-color: dodgerblue;
+}
+
+/*===Features-area-style-end====*/
+
+/*======
+  ======
+  ======
+  ======
+  ======
+*/
+
+/*===profile-style-arear-start=====*/
+
+.profile-main {
+    margin-top: 5%;
+}
+
+.profile-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.ul-link {
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 10px;
+    list-style: none;
+}
+
+.ul-link .li-linke {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+.ul-link .li-linke .a-linke {
+    color: rgb(0, 0, 0);
+    transition: all 0.4s ease 0s;
+}
+
+.ul-link .li-linke a:hover, .active12 {
+    border-radius: 30px;
+    padding: 15px 20px;
+    background-color: #1b9bff;
+    transition: .5s;
+    color: white;
+}
+
+.gallrey-img {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+.gallrey-img img {
+    width: 335px;
+    height: 256px;
+}
+
+/*===profile-style-arear-end=====*/
+
+/*
+  ======
+  ======
+  ======
+  ======
+  ======
+*/
+
+/*====Team-style-start====*/
+
+.team-main {
+    position: relative;
+    right: 5%;
+    top: 100px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.team-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+}
+
+.team-text-h1 {
+    margin-top: 100px;
+}
+
+.team-left {
+    width: 100px;
+    height: 100px;
+    text-align: justify;
+    text-align: center;
+    float: left;
+    margin-left: 15%;
+    background-image: url(Img/img-team/a3zam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.team-left1 {
+    width: 100px;
+    height: 100px;
+    text-align: justify;
+    text-align: center;
+    float: left;
+    margin-left: 15%;
+    background-image: url(Img/img-team/kola.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.team-right1 {
+    width: 100px;
+    height: 100px;
+    text-align: justify;
+    text-align: center;
+    float: right;
+    margin-left: 15%;
+    background-image: url(Img/img-team/jaf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.team-right {
+    width: 100px;
+    height: 100px;
+    text-align: justify;
+    text-align: center;
+    float: right;
+    margin-left: 5%;
+    background-image: url(Img/img-team/wd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/*====Team-style-end====*/
+
+/*
+  ======
+  ======
+  ======
+  ======
+  ======
+*/
+
+/*===img-slide-auto-style-start==*/
+
+.main-banner {
+    margin-top: 30%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20%;
+    width: 100%;
+    height: 650px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-banner .imgban {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    transition: all ease-in-out 500ms;
+    -webkit-transition: all ease-in-out 500ms;
+    -moz-transition: all ease-in-out 500ms;
+    -o-transition: all ease-in-out 500ms;
+}
+
+.main-banner #imgban3 {
+    background-image: url(img/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-banner #imgban2 {
+    background-image: url(img/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-banner #imgban1 {
+    background-image: url(img/5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgbanbtn {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 4px;
+    position: absolute;
+    top: 150px;
+    z-index: 2000;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.imgbanbtn:hover {
+    opacity: 0.9;
+}
+
+/*===img-slide-auto-style-end==*/
+
+/*
+  ======
+  ======
+  ======
+  ======
+  ======
+*/
+
+/*==== respos ====*/
+
+@media (max-width:952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:858px) {
+    .checkbtn {
+        display: block;
+    }
+    body {
+        height: calc(113.2vh - 80px);
+    }
+    ul {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(23, 21, 24);
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        text-align: center;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover, a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}
+
+/*== res-end ===*/
+
+/*======
+  ======
+  ======
+  ======
+  ======
+*/
+
